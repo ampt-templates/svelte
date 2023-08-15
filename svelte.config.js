@@ -3,11 +3,11 @@ import adapter from "@ampt/sveltekit";
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-  files: {
-    assets: "assets",
-  },
   preprocess: vitePreprocess(),
   kit: {
+    files: {
+      assets: "assets",
+    },
     adapter: adapter(),
   },
 };
