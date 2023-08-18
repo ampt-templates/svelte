@@ -29,7 +29,7 @@
   "type": "module",
   "dependencies": {
     "@ampt/sdk": "latest",
-    "@ampt/sveltekit": "latest",
+    "@ampt/sveltekit": "^0.0.1-beta.4",
     "@sveltejs/kit": "^1.5.0"
   },
   "files": [
