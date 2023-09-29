@@ -28,8 +28,8 @@
   },
   "type": "module",
   "dependencies": {
-    "@ampt/sdk": "^0.0.1-beta.58",
-    "@ampt/sveltekit": "^0.0.1-beta.4",
+    "@ampt/sdk": "^1.0.0",
+    "@ampt/sveltekit": "^1.0.0",
     "@sveltejs/kit": "^1.5.0"
   },
   "files": [
