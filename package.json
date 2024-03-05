@@ -8,7 +8,8 @@
     "ampt:build": "vite build",
     "preview": "vite preview",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+    "gitpod:ampt": "./node_modules/.bin/ampt"
   },
   "devDependencies": {
     "@fontsource/fira-mono": "^4.5.10",
@@ -23,16 +24,13 @@
     "vite": "^4.4.2"
   },
   "ampt": {
-    "org": "",
-    "app": "sveltekit"
+    "app": "",
+    "org": ""
   },
   "type": "module",
   "dependencies": {
     "@ampt/sdk": "^1.0.0",
     "@ampt/sveltekit": "^1.0.0",
     "@sveltejs/kit": "^1.5.0"
-  },
-  "files": [
-    "*"
-  ]
+  }
 }
